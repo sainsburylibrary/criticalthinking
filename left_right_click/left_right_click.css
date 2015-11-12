@@ -1,0 +1,130 @@
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.stunicholls/gallery/left_right_click.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+
+
+/* basic */
+
+body{
+
+font-family: Helvetica, Verdana, Arial, sans-serif;
+font-size: 0.84em;
+background-color: #fff;
+color: #000;
+
+}
+
+h2 {
+font-size: 1.5em;
+}
+
+h3 {
+font-size: 1em;
+}
+
+/* divs */
+
+div#all {
+
+	width: auto;
+	min-width: 500px;
+}
+
+div#container {
+	max-width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+background-color:#fff8e8;
+}
+
+div#header
+{
+	height: 60px;
+}
+
+
+div#footer
+{
+	margin-top: 42px;
+	clear:both;
+}
+
+
+/* template elements */
+
+.blurb
+{
+background-color:#fff8e8;
+}
+
+
+#gallery {width:474px; position:relative; height:60px; padding-top:356px; margin:0 20px 20px 20px;}
+
+#gallery img.left {width:55px; height:62px; background:#002147; float:left;cursor:pointer;}
+#gallery img.right {width:55px; height:62px; background:#002147; float:left;cursor:pointer;}
+
+#gallery ul {list-style:none; padding:0; margin:0; float:left; background:#002147; border:2px solid #002147; border-width:5px 2px;}
+#gallery ul li {display:inline; width:50px; height:50px; float:left; margin:0 4px; border:1px solid #444; cursor:pointer;}
+
+#gallery ul li.hide {display:none;}
+
+/* using background images */
+#gallery ul li.th1 {background:url(thumbs/Books.jpg);}
+#gallery ul li.th2 {background:url(thumbs/Barnett.jpg);}
+#gallery ul li.th3 {background:url(thumbs/Barron.jpg);}
+#gallery ul li.th4 {background:url(thumbs/Bishop.jpg);}
+#gallery ul li.th5 {background:url(thumbs/Briant.jpg);}
+#gallery ul li.th6 {background:url(thumbs/Budzier.jpg);}
+#gallery ul li.th7 {background:url(thumbs/Camilleri.jpg);}
+#gallery ul li.th8 {background:url(thumbs/Coulter.jpg);}
+#gallery ul li.th9 {background:url(thumbs/Devereux.jpg);}
+#gallery ul li.th10 {background:url(thumbs/Emerson.jpg);}
+#gallery ul li.th11 {background:url(thumbs/Hanke.jpg);}
+#gallery ul li.th12 {background:url(thumbs/Harrison.jpg);}
+#gallery ul li.th13 {background:url(thumbs/Haskins.jpg);}
+#gallery ul li.th14 {background:url(thumbs/Heracleous.jpg);}
+#gallery ul li.th15 {background:url(thumbs/Hoffmire.jpg);}
+#gallery ul li.th16 {background:url(thumbs/Kremnizer.jpg);}
+#gallery ul li.th17 {background:url(thumbs/Lednor.jpg);}
+#gallery ul li.th18 {background:url(thumbs/Loveridge.jpg);}
+#gallery ul li.th19 {background:url(thumbs/Mayer.jpg);}
+#gallery ul li.th20 {background:url(thumbs/McKenna.jpg);}
+#gallery ul li.th21 {background:url(thumbs/Morris.jpg);}
+#gallery ul li.th22 {background:url(thumbs/Mostyn.jpg);}
+#gallery ul li.th23 {background:url(thumbs/New.jpg);}
+#gallery ul li.th24 {background:url(thumbs/Nicholson.jpg);}
+#gallery ul li.th25 {background:url(thumbs/Noe.jpg);}
+#gallery ul li.th26 {background:url(thumbs/Poynton.jpg);}
+#gallery ul li.th27 {background:url(thumbs/Ramadorai.jpg);}
+#gallery ul li.th28 {background:url(thumbs/Ramirez.jpg);}
+#gallery ul li.th29 {background:url(thumbs/Reynolds.jpg);}
+#gallery ul li.th30 {background:url(thumbs/Roberts.jpg);}
+#gallery ul li.th31 {background:url(thumbs/Scott.jpg);}
+#gallery ul li.th32 {background:url(thumbs/Smart.jpg);}
+#gallery ul li.th33 {background:url(thumbs/Tufano.jpg);}
+#gallery ul li.th34 {background:url(thumbs/Undy.jpg);}
+#gallery ul li.th35 {background:url(thumbs/Ventresca.jpg);}
+#gallery ul li.th36 {background:url(thumbs/Ward.jpg);}
+#gallery ul li.th37 {background:url(thumbs/Wilson.jpg);}
+#gallery ul li.th38 {background:url(thumbs/Ziewitz.jpg);}
+#gallery ul li.th39 {background:url(thumbs/Flegg.jpg);}
+
+/* remove visibility:hidden; if you want to use the original images as thumbnails */
+#gallery ul li img {visibility:hidden; display:block; width:50px; height:50px;}
+
+#gallery ul li span {display:none; position:absolute; top:0; width:400px; left:500px; color:#002147; font-size:12px; line-height:15px;}
+#gallery ul li b {color:#002147;}
+
+#gallery ul li.chosen {border-color:#fff8e8; cursor:default;}
+#gallery ul li.chosen div {position:absolute; left:0; top:0; width:472px; height:355px; background:#002147; border:1px solid #000; border-width:1px 1px 0 1px;}
+#gallery ul li.chosen div i {width:472px; height:344px; display:table-cell; vertical-align:middle; text-align:center;} 
+#gallery ul li.chosen div i img {visibility:visible; width:auto; height:auto; border:1px solid #fff8e8; margin:0 auto;}
+#gallery ul li.chosen span {display:block;}
+
+#gallery h2 h3 {color:#002147;}
